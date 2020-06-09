@@ -1,5 +1,7 @@
-prime_array = Prime.take_while
+prime_array = Prime.take_while { |p| p < 2_000_000 }
 
-updated_array = prime_arary.inject { |sum,x| + x }
+
+
+
 
 p updated_array
