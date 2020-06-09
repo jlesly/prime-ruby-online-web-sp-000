@@ -1,7 +1,10 @@
-
-
-
-
+def prime?(number)
+ check = false
+ count = 2
+def prime?(number)
+ return check
+end	
+end
 
 def prime?(number)
   range = (2..(number - 1)).to_a
